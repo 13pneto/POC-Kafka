@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentApi", "PaymentApi\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{78A49ED0-D919-4044-9F95-CA345C4F88EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus-Custom-Lib", "..\ServiceBus-Custom-Lib\ServiceBus-Custom-Lib\ServiceBus-Custom-Lib.csproj", "{A8662517-0B7E-431D-AF53-612C207E8A80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{78A49ED0-D919-4044-9F95-CA345C4F88EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A49ED0-D919-4044-9F95-CA345C4F88EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78A49ED0-D919-4044-9F95-CA345C4F88EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8662517-0B7E-431D-AF53-612C207E8A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8662517-0B7E-431D-AF53-612C207E8A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8662517-0B7E-431D-AF53-612C207E8A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8662517-0B7E-431D-AF53-612C207E8A80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
