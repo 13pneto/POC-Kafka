@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{1F1C5A43-4976-47FD-912F-A8215677EB40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerAndReceiverApi", "ProducerAndReceiverApi\ProducerAndReceiverApi.csproj", "{1F1C5A43-4976-47FD-912F-A8215677EB40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{698ABB06-F528-4FD1-8721-FAA89A7ACC6B}"
 EndProject
