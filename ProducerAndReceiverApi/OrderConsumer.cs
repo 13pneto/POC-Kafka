@@ -1,16 +1,18 @@
 using Contracts;
-using Serilog;
-using ServiceBus_Custom_Lib.Consumer;
+using MassTransit;
 
 namespace Producer;
 
-public class OrderConsumer : IConsume<OrderCreatedEvent>
+public class OrderConsumer : IConsumer<OrderCreatedEvent>
 {
-    //Custom
-    public Task HandleAsync(OrderCreatedEvent message)
+    private int count = 1;
+
+    public async Task Consume(ConsumeContext<OrderCreatedEvent> context)
     {
-        // throw new Exception("Test exception");
-        Log.Information($"(Custom) Message of type {typeof(OrderCreatedEvent)} received. Uuid: {message.Uuid}, Date: {message.Date}");
-        return Task.CompletedTask;
+        throw new Exception("TEST 123456");
+        Console.WriteLine($"{count}: Received message, starting delay...");
+        await Task.Delay(3000);
+        Console.WriteLine($"{count}: Done");
+        Interlocked.Increment(ref count);
     }
 }
